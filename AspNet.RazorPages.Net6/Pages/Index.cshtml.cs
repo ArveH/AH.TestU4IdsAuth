@@ -1,7 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace AH.TestAuth.RazorPages.Pages
+namespace AspNet.RazorPages.Net6.Pages
 {
     public class IndexModel : PageModel
     {
