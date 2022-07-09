@@ -44,7 +44,7 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddRazorPages(options =>
     {
         // You can also add an AuthorizeFilter using the Authorize attribute to a page model class 
-        options.Conventions.AuthorizePage("/Private");
+        options.Conventions.AuthorizePage("/Secret");
     });
 
 var app = builder.Build();
